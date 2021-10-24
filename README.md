@@ -5,8 +5,11 @@ If you use the [F2Pool](https://www.f2pool.com/) service for mining and you want
 ## Installation
 
 1 - Run `npm install`
+
 2 - Run `cp env.sample .env`
+
 3 - Edit the ‍‍`.env` file according to your needs
+
 4 - Start with `npm start` or `node dist/index.js`
 
 ## 🐞🐞🐞
