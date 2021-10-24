@@ -1,0 +1,34 @@
+{
+  "name": "guarddog",
+  "version": "1.0.0",
+  "description": "Script to check miners' availability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/moshtaghi/guardog.git"
+  },
+  "keywords": [
+    "monitoring",
+    "telegram",
+    "miner",
+    "bitcoin",
+    "f2pool"
+  ],
+  "author": "Mehdi Moshtaghi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moshtaghi/guardog/issues"
+  },
+  "homepage": "https://github.com/moshtaghi/guardog#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "dotenv": "^10.0.0",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.0"
+  }
+}
